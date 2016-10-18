@@ -11,5 +11,7 @@ The build is very simple: Connect the 5V and GND Pin to the corresponsing Pins o
 
 Further documentation can be found here: https://www.arduino.cc/en/Guide/HomePage
 
+See the prototype (with an Arduino Uno) in action: https://www.youtube.com/watch?v=Dfme6pxks3U
+
 **Have fun**
 

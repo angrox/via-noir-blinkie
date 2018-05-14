@@ -20,7 +20,7 @@ Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ80
 // (0,0,255) == RESISTANCE
 // (255,0,0) == SPOOFER
 uint32_t pulsecolor = pixels.Color(0, 255, 0);
-    
+
 
 int cur_bright; // global setting - changed in various methods!
 int bright_diff = 10;
@@ -104,7 +104,7 @@ void colorWipeSingle(uint32_t c, uint8_t wait, uint8_t size) {
   }
 }
 
-void FactionPulse(uint8_t wait, boolean fade) { 
+void FactionPulse(uint8_t wait, boolean fade) {
   uint16_t i,j;
   for(j=0; j<40; j++) {
     PulseBrightness(5, fade, 40);
@@ -118,6 +118,3 @@ void FactionPulse(uint8_t wait, boolean fade) {
     }
   }
 }
-
-
-
